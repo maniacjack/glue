@@ -1,0 +1,76 @@
+
+body {
+	padding-left: 15em;
+	font-family: Georgia , Times;
+	background-color: #a1c3e3;
+	color: black;
+}
+
+ul.navbar{
+	position: absolute;
+	margin-top: 10em;
+	text-align: center;
+	top: 7em;
+	left: 0em;
+	width: 14em;
+	list-style-type: none;
+}
+
+.text-glow-hover:hover{
+	text-shadow: 0 0 10px #fff;
+}
+
+ul.navbar li{
+	background: #ff7611;
+	margin: 1em 0;
+	border-radius: 1.5em 0;
+	border-right: 0.5em solid black;
+}
+
+ul.navbar a{
+	text-decoration:blink;
+}
+
+a:link{
+   color: #1c79a9;
+   text-align: center;}
+
+a:visited {
+    color: #1c79a9;
+}
+
+span.tab{
+    padding: 0 40px;
+}
+
+
+
+div.col1 img{
+	left: 370px;
+	position: absolute;
+	height: 250px;
+	width: 400px;
+	border-style: double;
+	border:10px groove yellowgreen;
+	background-image: url(/root/Desktop/abc.png);
+	
+}
+
+div.col2 img{
+	left: 810px;
+	position: absolute;
+	height: 250px;
+	width: 400px;
+	border-style: double;
+	border:10px groove yellowgreen;
+}
+
+h3.question{
+   font-size:29px;
+   color:red;
+}
+
+table.sessions {
+table-layout: fixed;
+
+}
